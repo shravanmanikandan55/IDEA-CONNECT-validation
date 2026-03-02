@@ -1,0 +1,51 @@
+# IdeaConnect Project Requirements
+
+This is a Node.js project. To install all dependencies, you need to have Node.js and npm installed.
+
+## Installation Instructions
+
+1. Ensure you have Node.js installed (v18 or higher recommended).
+2. Run the following command in the root directory of the project to install all dependencies:
+   npm install
+
+## Production Dependencies
+
+@google/genai (^1.43.0)
+@supabase/supabase-js (^2.97.0)
+@tailwindcss/typography (^0.5.19)
+dotenv (^17.3.1)
+express (^5.2.1)
+i18next (^25.8.13)
+i18next-browser-languagedetector (^8.2.1)
+jspdf (^4.2.0)
+jspdf-autotable (^5.0.7)
+lucide-react (^0.575.0)
+motion (^12.34.3)
+nodemailer (^8.0.1)
+react (^19.2.4)
+react-dom (^19.2.4)
+react-i18next (^16.5.4)
+react-markdown (^10.1.0)
+recharts (^3.7.0)
+tsx (^4.21.0)
+
+## Development Dependencies
+
+@types/dotenv (^6.1.1)
+@types/express (^5.0.6)
+@types/node (^22.14.0)
+@types/nodemailer (^7.0.11)
+@types/react (^19.2.14)
+@types/react-dom (^19.2.3)
+@vitejs/plugin-react (^5.0.0)
+typescript (~5.8.2)
+vite (^6.2.0)
+
+## Required Environment Variables
+
+Create a `.env` file in the root directory with the following variables:
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
+RESEND_API_KEY=your_resend_api_key
+GEMINI_API_KEY=your_gemini_api_key
